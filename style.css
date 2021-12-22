@@ -1,0 +1,102 @@
+
+/* ========================= Start Row===================== */
+.row{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    margin: 0px;
+
+}
+.row img{
+    /* margin: 10px; */
+    height: 230px;
+}
+/* =========================Gallery===================== */
+.gallery img{
+    padding-right: 30px;
+    margin: 40px;
+}
+
+/* =========================contact Us===================== */
+.contact{
+    min-height: 550px;
+    width: 100%;
+}
+
+.mapimg img{
+    height: 550px;
+    width: 100%;
+}
+.conversation{
+    padding-top: 30px;
+    min-height: 500px;
+    margin-bottom: 20px;
+  
+}
+.conversation h4{ 
+    padding: 40px;
+    font-size: 30px;
+    color: rgb(77, 74, 74);
+    font-family: "open sans",Arial,sans-serif;
+}
+.conversation input{
+      margin: 20px;
+      margin-left: 50px;
+      height: 40px;
+      width: 28%;
+      border: none;
+      border-bottom: 1px solid darkgrey;    
+}
+.conversation textarea{
+    margin: 20px;
+    margin-left: 50px;
+    height: 100px;
+    width: 65%;
+    border: none;
+    border-bottom: 1px solid darkgrey;
+}
+.conversation button{
+    border-radius: 50px;
+    padding: 15px;
+    width: 130px;
+    margin-left: 50px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid dodgerblue;
+}
+.icon-bar{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    right: 0px;
+    top: 550px;
+    border-radius: 8px 0px 0px 8px;
+    position: fixed;
+}
+.icon-bar:hover{
+    background-color: white;
+   border: 1px solid brown;
+}
+.icon-bar span :hover{
+    color: brown;
+    
+}
+.icon-bar span{
+    color: white;
+    font-size: 32px;
+    padding: 5px 8px;
+}
+/* =========================footer===================== */
+.footer{
+    color: white;
+    height: 150px;
+    background-color: rgb(227,242,253);
+}
+.footer i{
+    color: black;
+    font-size: 32px;
+    padding: 25px;
+}
